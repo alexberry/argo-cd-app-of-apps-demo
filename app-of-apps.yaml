@@ -5,11 +5,11 @@ metadata:
 spec:
   destination:
     name: in-cluster
-    namespace: argocd
+    namespace: argo-cd
   source:
     path: apps
-    repoURL: 'https://github.com/morey-tech/argo-cd-app-of-apps-demo'
-    targetRevision: HEAD
+    repoURL: 'https://github.com/alexberry/argo-cd-app-of-apps-demo.git'
+    targetRevision: customise
   project: default
   # syncPolicy:
   #   automated:
